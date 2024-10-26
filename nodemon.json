@@ -1,0 +1,8 @@
+{
+  "ignore": [".git", "node_modules/**/node_modules", "*.test.*", "*.log", ".env", ".*ignore", ".*.config.js"],
+  "watch": ["/server.js", "src/**/*.ts", "src/**/*.js", "src/**/*.json", "dist/*"],
+  "ext": "ts,js,json",
+  "execMap": {
+    "ts": "ts-node"
+  }
+}
