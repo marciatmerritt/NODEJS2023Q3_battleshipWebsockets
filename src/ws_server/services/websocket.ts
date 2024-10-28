@@ -1,5 +1,5 @@
 import { WebSocketServer } from 'ws';
-import { registerPlayer, findPlayer } from './models/player'; // Adjust your path
+import { registerPlayer } from '../models/player'; // Adjust your path
 
 const wss = new WebSocketServer({ port: 8080 });
 
